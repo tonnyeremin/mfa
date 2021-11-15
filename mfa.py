@@ -53,6 +53,4 @@ t = Totp()
 
 secret = t.generate_secret(pass_streght)
 url = t.get_totp_url(secret)
-password = t.GeneratePassword(secret, 1, 6)
-print(t.IsValid(secret,password,2))
 
